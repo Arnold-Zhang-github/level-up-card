@@ -33,82 +33,82 @@ body {
 
 .design {
   height: 50px;
-  background-color: #894caf; /* 按钮背景色 */
-  color: white; /* 文本颜色 */
-  padding: 20px; /* 按钮内边距 */
-  font-size: 16px; /* 文本大小 */
+  background-color: #894caf; 
+  color: white;
+  padding: 20px; 
+  font-size: 16px; 
   border: none;
-  cursor: pointer; /* 鼠标光标样式 */
+  cursor: pointer; 
   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 .design:hover {
-  background-color: #a988cd; /* 改变的背景颜色 */
-  box-shadow: 0 0 15px 5px rgba(137, 76, 175, 0.6); /* 发光效果 */
+  background-color: #a988cd; 
+  box-shadow: 0 0 15px 5px rgba(137, 76, 175, 0.6);
 }
 
 .build {
   height: 50px;
-  background-color: #0b9d4d; /* 按钮背景色 */
-  color: white; /* 文本颜色 */
-  padding: 20px; /* 按钮内边距 */
-  font-size: 16px; /* 文本大小 */
-  border: none; /* 移除边框 */
-  cursor: pointer; /* 鼠标光标样式 */
+  background-color: #0b9d4d;
+  color: white; 
+  padding: 20px; 
+  font-size: 16px; 
+  border: none; 
+  cursor: pointer; 
   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 .build:hover{
-  background-color: #1ec75e; /* 改变的背景颜色 */
-  box-shadow: 0 0 15px 5px rgba(11, 157, 77, 0.6); /* 发光效果 */
+  background-color: #1ec75e; 
+  box-shadow: 0 0 15px 5px rgba(11, 157, 77, 0.6); 
 }
 
 .devops {
   height: 50px;
-  background-color: rgb(76, 125, 175); /* 按钮背景色 */
-  color: white; /* 文本颜色 */
-  padding: 20px; /* 按钮内边距 */
-  font-size: 16px; /* 文本大小 */
-  border: none; /* 移除边框 */
-  cursor: pointer; /* 鼠标光标样式 */
+  background-color: rgb(76, 125, 175); 
+  color: white; 
+  padding: 20px; 
+  font-size: 16px; 
+  border: none;
+  cursor: pointer; 
   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .devops:hover {
-  background-color: rgb(125, 177, 229); /* 改变的背景颜色 */
-  box-shadow: 0 0 15px 5px rgba(76, 125, 175, 0.6); /* 发光效果 */
-}
+  background-color: rgb(125, 177, 229);
+  box-shadow: 0 0 15px 5px rgba(76, 125, 175, 0.6);
+
 
 .security {
   height: 50px;
-  background-color: rgb(232, 120, 35); /* 按钮背景色 */
-  color: white; /* 文本颜色 */
-  padding: 20px; /* 按钮内边距 */
-  font-size: 16px; /* 文本大小 */
-  border: none; /* 移除边框 */
-  cursor: pointer; /* 鼠标光标样式 */
+  background-color: rgb(232, 120, 35);
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .security:hover {
-  background-color: rgb(229, 166, 115); /* 改变的背景颜色 */
-  box-shadow: 0 0 15px 5px rgba(232, 120, 35, 0.6); /* 发光效果 */
+  background-color: rgb(229, 166, 115);
+  box-shadow: 0 0 15px 5px rgba(232, 120, 35, 0.6);
 }
 .leadership {
   height: 50px;
-  background-color: rgb(233, 56, 56); /* 按钮背景色 */
-  color: white; /* 文本颜色 */
-  padding: 20px; /* 按钮内边距 */
-  font-size: 16px; /* 文本大小 */
-  border: none; /* 移除边框 */
-  cursor: pointer; /* 鼠标光标样式 */
+  background-color: rgb(233, 56, 56); 
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .leadership:hover {
-  background-color: rgb(246, 129, 129); /* 改变的背景颜色 */
-  box-shadow: 0 0 15px 5px rgba(233, 56, 56, 0.6); /* 发光效果 */
+  background-color: rgb(246, 129, 129);
+  box-shadow: 0 0 15px 5px rgba(233, 56, 56, 0.6);
 }
