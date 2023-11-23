@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>build</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      a {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        padding-top: 10px;
+        
+        color: white;
+        font-size: 13px;
+      }
+
+      h4 {
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin-bottom: -10px;
+      }
+
+
+      .box {
+        border: 5px solid  #0b9d4d;
+
+        margin: 50px 50px 50px 50px;
+        padding: 10px 10px 10px 10px;
+        transition: box-shadow 0.3s ease;
+      }
+      .box:hover {
+        box-shadow: 0 0 30px 10px  #0b9d4d;
+       
+      }
+      .back-button {
+        display: flex;
+        justify-content: center;
+        
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h4>To Explore 🔎</h4>
+      <a target="_blank" href="https://roadmap.sh/">Developer Roadmaps — As a guide on things to potentially learn</a>
+
+      <h4>To Do 🚶</h4>
+      <a target="_blank" href="https://www.meetup.com/en-AU/junior-developers-adelaide/">Junior Developers</a>
+
+      <h4>To Watch 🎥</h4>
+      <a target="_blank" href="https://www.youtube.com/c/Fireship">Fireship — Really good short explanations of coding concepts</a>
+
+      <h4>To Read 📚</h4>
+      <a target="_blank" href="https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882">Clean Code (to be read with care)</a>
+
+      <h4>To Listen 🎧</h4>
+      <a target="_blank" href="https://changelog.com/">Changelog Podcasts</a>
+
+      <a href="card.html">
+        <button class="back-button" onclick="location">back</button>
+      </a>
+
+    </div>
+
+
+  </body>
+</html>
